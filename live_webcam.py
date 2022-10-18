@@ -25,7 +25,7 @@ def live_feed_detection():
             ret, frame = video_capture.read()
 
             if process_this_frame:
-                small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
+                small_frame = cv2.resize(frame, (0, 0), fx=1, fy=1)
 
                 rgb_small_frame = small_frame[:, :, ::-1]
 

@@ -3,7 +3,7 @@ from IPython.display import display
 from PIL import Image, ImageDraw
 
 import face_recognition
-from list import convert
+from util import convert
 
 
 def learn():
